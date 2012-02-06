@@ -1124,12 +1124,13 @@ StTooltip StLabel {
 
 .run-dialog-label {
     font-size: 9pt;
-    color: white;
+    color: #444;
+    padding: 4px;
 }
 
 .run-dialog-error-label {
     font-size: 9pt;
-    color: white;
+    color: #000;
 }
 
 .run-dialog-error-box {
@@ -1141,13 +1142,21 @@ StTooltip StLabel {
     font-size: 10.5pt;
     font-weight: bold;
     width: 23em;
-    color: white;
-    selection-background-color: white;
-    selected-color: black;
+    color: #222;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.4);
+    padding: 4px;
 }
 
 .run-dialog {
-    border-radius: 16px;	
+    border-radius: 8px;
+    background-gradient-direction: vertical; 
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; 
+    border: 1px solid rgba(22, 22, 22, 0.3);
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.4);
     padding-right: 21px;
     padding-left: 21px;
     padding-bottom: 15px;
