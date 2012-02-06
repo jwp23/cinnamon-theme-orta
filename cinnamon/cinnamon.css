@@ -1178,7 +1178,7 @@ StTooltip StLabel {
 .end-session-dialog-subject {
     font-size: 12pt;
     font-weight: bold;
-    color: #666666;
+    color: #444;
     padding-top: 10px;
     padding-left: 17px;
     padding-bottom: 30px;
@@ -1191,7 +1191,7 @@ StTooltip StLabel {
 
 .end-session-dialog-description {
     font-size: 10pt;
-    color: white;
+    color: #444;
     padding-left: 17px;
     width: 28em;
 }
@@ -1201,8 +1201,8 @@ StTooltip StLabel {
 }
 
 .end-session-dialog-logout-icon {
-    border: 2px solid #8b8b8b;
-    border-radius: 5px;
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.4);
+    border-radius: 6px;
     width: 32px;
     height: 32px;
 }
