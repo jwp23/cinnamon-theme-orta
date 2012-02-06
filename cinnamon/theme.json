@@ -1,10 +1,10 @@
 { 
    "shell-theme": {
    "name": "Orta", 
-   "author": "Half-Left", 
-   "version": "1.1",
+   "author": "Mordant23", 
+   "version": ".1",
    "type":   "custom",
-   "thumbnail": "preview-orta.jpg", 
-   "url": "http://half-left.deviantart.com/art/GNOME-Shell-Orta-207047273" 
+   "thumbnail": "thumbnail.jpg", 
+   "url": "https://github.com/mordant23/cinnamon-theme-orta" 
     }
 }
