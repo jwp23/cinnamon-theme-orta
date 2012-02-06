@@ -438,6 +438,7 @@ StTooltip StLabel {
 
 #overview {
     spacing: 12px;
+    background-color: rgba(226,226,228,0.6);
 }
 
 .window-caption {
@@ -450,17 +451,20 @@ StTooltip StLabel {
 }
 
 .workspace-thumbnails-background {
-    border: 1px solid rgba(128, 128, 128, 0.4);
+    border: 1px solid rgba(88,88,88,0.5);
     border-right: 0px;
-    border-radius: 9px 9px 0px 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 9px 0px 0px 9px;
+    box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.8);
+    background-gradient-direction: vertical; 
+    background-gradient-start: #fcfcfc;
+    background-gradient-end: #dbdbdc;
     padding: 8px;
 }
 
 .workspace-thumbnails-background:rtl {
     border-right: 1px;
     border-left: 0px;
-    border-radius: 9px 9px 0px 0px;
+    border-radius: 0px 9px 9px 0px;
 }
 
 .workspace-thumbnails {
@@ -468,15 +472,22 @@ StTooltip StLabel {
 }
 
 .workspace-thumbnail-indicator {
-    outline: 2px solid white;
-    border: 1px solid #888;
+    background-gradient-direction: vertical; 
+    background-gradient-start: rgba(233,233,233,0.5);
+    background-gradient-end: rgba(160,160,160,0.5);
+    box-shadow: inset 0px 0px 6px 4px rgba(0,0,0,0.3);
+    border: 3px solid #333;
 }
 
 .window-caption {
-    background: rgba(85,85,85,0.8);
-    border: 1px solid rgba(128,128,128,0.40);
-    border-radius: 4px;
-    font-size: 9pt;
+    background-gradient-direction: vertical; 
+    background-gradient-start: #5d5d5d;
+    background-gradient-end: #757575;
+    border: 1px solid rgba(255,255,255,0.0);
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    color: #fff;
+    font-size: 10pt;
     padding: 2px 8px;
     -cinnamon-caption-spacing: 4px;
 }
@@ -486,6 +497,8 @@ StTooltip StLabel {
     height: 34px;
     width: 34px;
     -cinnamon-close-overlap: 20px;
+    -st-background-image-shadow: -2px 2px 6px rgba(0,0,0,0.5);
+
 }
 
 .window-close:rtl {
