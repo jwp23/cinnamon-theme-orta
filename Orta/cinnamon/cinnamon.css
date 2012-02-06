@@ -30,16 +30,16 @@ stage {
 }
 
 .cinnamon-link {
-    color: #0000ff;
+    color: #65a5e0;
     text-decoration: underline;
 }
 
 .cinnamon-link:hover {
-    color: #0000e0;
+    color: #8ec7fd;
 }
 
 .label-shadow {
-    color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.5);
 }
 
 StScrollBar
