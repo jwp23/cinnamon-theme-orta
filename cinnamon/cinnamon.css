@@ -317,23 +317,15 @@ StTooltip StLabel {
  * ===================================================================*/
 
 #panel {
-    color: #333;
-    background-gradient-direction: vertical; 
-    background-gradient-start: #fcfcfc;
-    background-gradient-end: #dbdbdc;
-    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.4);
-    border: 1px solid rgba(33,33,33,0.5);
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 0px 0px 4px 4px;
-    height: 1.86em;
-    padding-right: 11px;
+    color: #ffffff;
+    background-color: #555555;    
+    font-size: 8.5pt;
+    font-weight: normal;
+    height: 25px;
 }
 
 #panelLeft, #panelCenter {
     spacing: 4px;
-    font-weight: bold;
 }
 
 #panelLeft:ltr {
@@ -345,37 +337,33 @@ StTooltip StLabel {
 }
 
 #panelRight:ltr {
-    padding-left: 0px; /*
-    spacing: 0px; */
+    padding-left: 0px;
+    spacing: 0px;
 }
 
 #panelRight:rtl {
-    padding-right: 0px; /*
-    spacing: 0px; */
+    padding-right: 0px;
+    spacing: 0px;
 }
 
 .panel-status-button {
-    background-gradient-direction: vertical; 
-    background-gradient-start: #5d5d5d;
-    background-gradient-end: #757575;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.0);
-    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
-    color: #fff;
-    padding-right: 11px;
-    padding-left: 11px;
+	border: 0px solid #8b8b8b;
+	-natural-hpadding: 5px;
+    -minimum-hpadding: 5px;
+    font-weight: bold;
+    color: #ccc;    
+    height: 22px;    
 }
 
 .panel-status-button:hover {
-    color: #111;    
+    color: white;    
 }
 
-.system-status-icon { /*
+.system-status-icon {
 	padding-left: 0px;
 	padding-right: 0px;	
 	spacing: 0px;
-	margin: 0px; */
-	icon-size: 1.14em;
+	margin: 0px;
 }
 
 .panel-corner {
@@ -416,7 +404,8 @@ StTooltip StLabel {
 }
 
 .panel-button:hover {
-    color: #111;
+    color: white;
+    text-shadow: black 0px 2px 2px;
 }
 
 .panel-button:active,
@@ -427,8 +416,8 @@ StTooltip StLabel {
 
 .panel-button:active > .system-status-icon,
 .panel-button:checked > .system-status-icon,
-.panel-button:focus > .system-status-icon { /*
-    icon-shadow: black 0px 2px 2px; */
+.panel-button:focus > .system-status-icon {
+    icon-shadow: black 0px 2px 2px;
 }
 
 .panel-menu {
@@ -787,7 +776,7 @@ StTooltip StLabel {
 
 .calendar-today {
     background-image: url("calendar-today.svg");
-    ]: black 0px 2px 2px;
+    text-shadow: black 0px 2px 2px;
     color: #ffffff;
     font-weight: bold;
 }
