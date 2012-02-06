@@ -146,10 +146,12 @@ StTooltip StLabel {
  * ===================================================================*/
 
 .popup-menu-boxpointer {
-    -arrow-border-radius: 8px;
-    -arrow-background-color: rgba(80,80,80,0.9);
-    -arrow-border-width: 2px;
-    -arrow-border-color: #a5a5a5;
+    -arrow-border-radius: 6px;
+    -arrow-background-gradient-direction: vertical;
+    -arrow-background-gradient-start: #eeeeef;
+    -arrow-background-gradient-end: #cececf; 
+    -arrow-border-width: 1px;
+    -arrow-border-color: rgba(22, 22, 22, 0.5);
     -arrow-base: 24px;
     -arrow-rise: 11px;
 }
