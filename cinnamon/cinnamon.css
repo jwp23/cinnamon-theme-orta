@@ -113,31 +113,32 @@ StTooltip StLabel {
 .notification-button, .notification-icon-button,
 .hotplug-notification-item, .hotplug-resident-eject-button,
 .modal-dialog-button {
-    color: white;
-    border: 1px solid #8b8b8b;
-    background-gradient-direction: vertical;
-    background-gradient-start: rgba(255, 255, 255, 0.2);
-    background-gradient-end: rgba(255, 255, 255, 0);
+    color: #444;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-gradient-direction: vertical; 
+    background-gradient-start: #fcfcfc;
+    background-gradient-end: #dbdbdc;
 }
 
 .notification-button:hover,
 .notification-icon-button:hover, .hotplug-notification-item:hover,
 .hotplug-resident-eject-button:hover, .modal-dialog-button:hover {
-    background-gradient-start: rgba(255, 255, 255, 0.3);
-    background-gradient-end: rgba(255, 255, 255, 0.1);
+    background-gradient-start: #fff;
+    background-gradient-end: #cdcdcd;
 }
 
 .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-    border: 2px solid #8b8b8b;
+    background-gradient-start: #fff;
+    background-gradient-end: #cdcdcd;
 }
 
 .notification-button:active, .notification-icon-button:active,
 .hotplug-notification-item:active, .hotplug-resident-eject-button:active,
 .modal-dialog-button:active, .modal-dialog-button:pressed {
-    background-gradient-start: rgba(255, 255, 255, 0);
-    background-gradient-end: rgba(255, 255, 255, 0.2);
+    background-gradient-start: #fff;
+    background-gradient-end: #cdcdcd;
 }
 
 /* ===================================================================
