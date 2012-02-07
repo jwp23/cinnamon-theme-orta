@@ -1533,7 +1533,7 @@ StTooltip StLabel {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border: 1px solid rgba(0,0,0,0);    
+    border: 1px solid rgba(0,0,0,0); /* added to smooth box size for hover */   
 }
 
 .menu-favorites-button:hover {
@@ -1612,7 +1612,7 @@ StTooltip StLabel {
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px; 
-    color: #9C9C9C;
+    color: #999;
     font-style: italic;
 }
 
@@ -1621,12 +1621,13 @@ StTooltip StLabel {
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px; 
-    color: white;
-	 background-gradient-direction: vertical;
-	 background-gradient-start: rgba(255,255,255,0.2);
-	 background-gradient-end: rgba(255,255,255,0.08);
-	 box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
-    border-radius: 4px;
+    background-gradient-direction: vertical; 
+    background-gradient-start: #5d5d5d;
+    background-gradient-end: #757575;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.0);
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
 .menu-category-button-label { 
@@ -1661,25 +1662,24 @@ StTooltip StLabel {
 #menu-search-entry {
     padding: 4px 12px;
     border-radius: 4px;
-    color: rgb(128, 128, 128);
-    border: 2px solid rgba(245,245,245,0.2);
-    background-gradient-start: rgba(5,5,6,0.1);
-    background-gradient-end: rgba(254,254,254,0.1);
-    background-gradient-direction: vertical;
+    color: #333;
+    border: 1px solid rgba(255,255,255,0.3);
+    background-color: #fff;
     selected-color: black;
     caret-color: rgb(128, 128, 128);
     caret-size: 1px;
     width: 250px;
     transition-duration: 300;
-    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6);
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.4);
 }
 
 #menu-search-entry:focus,
 #menu-search-entry:hover {
+    color: #000;
     border: 2px solid rgb(136,138,133);
-    background-gradient-start: rgb(200,200,200);
-    background-gradient-end: white;
-    background-gradient-direction: vertical;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.4);
+
 }
 
 #menu-search-entry:hover {
@@ -1687,13 +1687,14 @@ StTooltip StLabel {
 }
 
 #menu-search-entry:focus {
-    color: rgb(64, 64, 64);
-    font-weight: bold;
-    transition-duration: 0;
+   border: 1px solid rgba(11,11,11,0.9);
+    background-color: #f3f3f3;
+    box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.6);
+    transition-duration: 300;
 }
 
 .menu-search-entry-icon {
-    icon-size: 1em;
+    icon-size: 1.4em;
     color: #8d8f8a;
 }
 
