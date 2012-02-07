@@ -317,11 +317,14 @@ StTooltip StLabel {
  * ===================================================================*/
 
 #panel {
-    color: #ffffff;
-    background-color: #555555;    
+    color: #333333;
+    background-gradient-direction: vertical; 
+    background-gradient-start: #fcfcfc;
+    background-gradient-end: #dbdbdc; /*
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.4); */
     font-size: 8.5pt;
     font-weight: normal;
-    height: 25px;
+    height: 1.86em;
 }
 
 #panelLeft, #panelCenter {
@@ -351,12 +354,12 @@ StTooltip StLabel {
 	-natural-hpadding: 5px;
     -minimum-hpadding: 5px;
     font-weight: bold;
-    color: #ccc;    
+    color: #333;    
     height: 22px;    
 }
 
 .panel-status-button:hover {
-    color: white;    
+    color: #333;    
 }
 
 .system-status-icon {
@@ -399,12 +402,12 @@ StTooltip StLabel {
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
     font-weight: bold;
-    color: #ccc;
+    color: #333;
     transition-duration: 100;
 }
 
 .panel-button:hover {
-    color: white;
+    color: #333;
     text-shadow: black 0px 2px 2px;
 }
 
@@ -1719,7 +1722,7 @@ StTooltip StLabel {
 }
 
 .window-list-item-box {
-     color: rgba(255,255,255,1.0);
+     color: #333;
 	 background-gradient-direction: vertical;
 	 background-gradient-start: rgba(255,255,255,0.05);
 	 background-gradient-end: rgba(255,255,255,0.2);
@@ -1818,7 +1821,7 @@ StTooltip StLabel {
 .workspace-button {
     width: 20px;
     height: 10px;   
-    color: #cccccc;
+    color: #333;
     transition-duration: 100;
     border: 1px;
     border-color: #a6a6a6;
@@ -1826,9 +1829,9 @@ StTooltip StLabel {
 }
 
 .workspace-button:outlined {
-    padding: 1px;    
+    padding: 2px;
     background: #cccccc;
-    color: #555555;
+    color: #333;
 }
 
 /* ===================================================================
