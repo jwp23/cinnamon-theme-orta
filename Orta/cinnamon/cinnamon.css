@@ -146,14 +146,15 @@ StTooltip StLabel {
  * ===================================================================*/
 
 .popup-menu-boxpointer {
-    -arrow-border-radius: 6px;
-    background-gradient-direction: vertical;
-    background-gradient-start: #eeeeef;
-    background-gradient-end: #cececf; 
+    -arrow-border-radius: 6px; 
+    -arrow-background-color: #cececf; 
     -arrow-border-width: 1px;
     -arrow-border-color: rgba(22, 22, 22, 0.5);
     -arrow-base: 24px;
-    -arrow-rise: 11px;
+    -arrow-rise: 11px; /*
+    background-gradient-direction: vertical;
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; */
 }
 
 .popup-menu {
@@ -162,12 +163,12 @@ StTooltip StLabel {
     min-width: 200px;
 }
 
-/*
-.popup-submenu-menu-item:open {
-    background-color: #ff0000;
-} */
 
-.popup-sub-menu {
+.popup-submenu-menu-item:open { 
+    background-color: #ff0000; 
+} 
+
+.popup-sub-menu { 
     background-color: #efefef;
     border: 1px solid rgba(255,255,255,0.6);
 }
@@ -209,6 +210,9 @@ StTooltip StLabel {
  */
 .popup-menu-content {
     padding: 1em 0em;
+    background-gradient-direction: vertical; 
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; 
 }
 
 .popup-menu-item {
