@@ -322,6 +322,11 @@ StTooltip StLabel {
     background-gradient-start: #fcfcfc;
     background-gradient-end: #dbdbdc; 
     box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78);
+    border: 1px solid rgba(33,33,33,0.5);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 0px 4px 4px;
     font-size: 8.5pt;
     font-weight: normal;
     height: 25px;
@@ -359,7 +364,7 @@ StTooltip StLabel {
 }
 
 .panel-status-button:hover {
-    color: #333;    
+    color: #111;    
 }
 
 .system-status-icon {
@@ -401,20 +406,29 @@ StTooltip StLabel {
 .panel-button {
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
+    padding: 0px 12px;
     font-weight: bold;
-    color: #333;
+    color: #555;
     transition-duration: 100;
 }
 
 .panel-button:hover {
-    color: #333;
-    text-shadow: black 0px 2px 2px;
+    color: #111;
+
 }
 
 .panel-button:active,
 .panel-button:overview,
 .panel-button:focus {
-    
+    background-gradient-direction: vertical; 
+    background-gradient-start: #5d5d5d;
+    background-gradient-end: #757575;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.0);
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
+    color: #fff;
+    padding-right: 11px;
+    padding-left: 11px;
 }
 
 .panel-button:active > .system-status-icon,
