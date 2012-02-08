@@ -320,11 +320,11 @@ StTooltip StLabel {
     color: #333333;
     background-gradient-direction: vertical; 
     background-gradient-start: #fcfcfc;
-    background-gradient-end: #dbdbdc; /*
-    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.4); */
+    background-gradient-end: #dbdbdc; 
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78);
     font-size: 8.5pt;
     font-weight: normal;
-    height: 1.86em;
+    height: 25px;
 }
 
 #panelLeft, #panelCenter {
