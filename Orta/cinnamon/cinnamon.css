@@ -1856,6 +1856,9 @@ StTooltip StLabel {
     color: #333;
 }
 
+.workspace-button:hover {
+    font-weight: bold;
+}
 /* ===================================================================
  * Panel Launchers Applet (panelLaunchers.js)
  * ===================================================================*/
