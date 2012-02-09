@@ -449,8 +449,8 @@ StTooltip StLabel {
 
 }
 
-.system-status-icon {
-    icon-size: 1.14em;
+.system-status-icon { 
+    icon-size: 1.14em; 
 }
 
 /* ===================================================================
@@ -1764,6 +1764,7 @@ StTooltip StLabel {
 .window-list-item-box:hover  {     
 	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0);
      border-radius: 2px 2px 0px 0px;
+     font-weight: bold;
 }
 
 .window-list-item-demands-attention {
