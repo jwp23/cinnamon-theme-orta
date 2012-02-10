@@ -1755,12 +1755,19 @@ StTooltip StLabel {
 }
 
 .window-list-item-box {
-     color: #4D4D4D; 
+     color: #4D4D4D; /*
 	 background-gradient-direction: vertical;
 	 background-gradient-start: #e7e7e7;
 	 background-gradient-end: #c8c8c8; 
-	 box-shadow: 2px 0px 1px 1px #bbbbbc; 
+	 box-shadow: 2px 0px 1px 1px #bbbbbc; */
+
+	 background-gradient-direction: vertical;
+	 background-gradient-start: rgba(255,255,255,0.05);
+	 background-gradient-end: rgba(255,255,255,0.2);
+	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,0.5);
+
      border-radius: 2px 2px 0px 0px;
+
 }
 
 .window-list-item-box:active,
@@ -1768,17 +1775,30 @@ StTooltip StLabel {
 .window-list-item-box:focus  {     /*
 	 background-gradient-direction: vertical;
 	 background-gradient-start: rgba(170,170,170,1);
-	 background-gradient-end: rgba(190,190,190,1); */
+	 background-gradient-end: rgba(190,190,190,1); 
 	 background: rgba(190,190,190,1); 
 	 box-shadow: inset 0px 1px 1px 0px rgba(138,138,138,1); 
-     border-radius: 4px;
+     border-radius: 4px; */
+
+/* 0.6.2 version */
+	 background-gradient-direction: vertical;
+	 background-gradient-start: rgba(226,226,226,0.5);
+	 background-gradient-end: rgba(122,122,122,0.5);
+	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,0.5);
+     border-radius: 2px 2px 0px 0px;
+
 }
 
 .window-list-item-box:hover  {    /*
 	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0); 
      border-radius: 2px 2px 0px 0px; 
-     font-weight: bold; */
-     background: rgba(169,183,196,0.4);
+     font-weight: bold; 
+     background: rgba(169,183,196,0.4); */
+
+	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0);
+     border-radius: 2px 2px 0px 0px;
+     font-weight: bold;
+
 }
 
 .window-list-item-demands-attention {
