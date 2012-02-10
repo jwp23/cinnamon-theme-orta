@@ -414,7 +414,7 @@ StTooltip StLabel {
 .panel-button {
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
-    padding: 0px 12px;
+    padding: 0px 1px;
     font-weight: bold;
     color: #555;
     transition-duration: 100;
@@ -435,8 +435,8 @@ StTooltip StLabel {
     border: 1px solid rgba(255,255,255,0.0);
     box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
     color: #fff;
-    padding-right: 11px;
-    padding-left: 11px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .panel-button:active > .system-status-icon,
@@ -1023,13 +1023,16 @@ StTooltip StLabel {
 }
 
 .switcher-list {
-    background: rgba(80,80,80,0.8);
-    border: 1px solid rgba(128,128,128,0.40);
+    background-gradient-direction: vertical; 
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; 
+    border: 1px solid rgba(22, 22, 22, 0.3);
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.4);
     border-radius: 24px;
     padding: 20px;
 
     font-size: 9pt;
-    color: white;
+    color: #4D4D4D;
 }
 
 .switcher-list-item-container {
@@ -1067,7 +1070,12 @@ StTooltip StLabel {
 }
 
 .switcher-list .item-box:selected {
-    background: rgba(255,255,255,0.33);
+    background-gradient-direction: vertical; 
+    background-gradient-start: #5d5d5d;
+    background-gradient-end: #757575;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
 .switcher-list .thumbnail-box {
@@ -1961,5 +1969,3 @@ StTooltip StLabel {
 .applet-label {
 
 }
-
-
