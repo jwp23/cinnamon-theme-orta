@@ -1067,8 +1067,11 @@ StTooltip StLabel {
 
 .switcher-list .item-box:selected {
     background-gradient-direction: vertical; 
-    background-gradient-start: rgba(50,50,50,0.33);
-    background-gradient-end: rgba(0,0,0,0.33);
+    background-gradient-start: #5d5d5d;
+    background-gradient-end: #757575;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
 .switcher-list .thumbnail-box {
