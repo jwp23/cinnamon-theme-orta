@@ -7,19 +7,20 @@ Orta is originally written by SkiesOfAzel http://skiesofazel.deviantart.com/art/
 
 INSTALLATION
 
-You can install from the repository .
+You can install from the repository https://launchpad.net/~mordant23/+archive/themes.
  
 sudo apt-get-respositry ppa:mordant23/themes
 sudo apt-get update && sudo apt-get install cinnamon-theme-clove-black 
  
-Extract zip file and to the themes directory. That's usually /usr/share/themes/ for system wide installation or ~/.themes/ for a specific user.   Use Cinnamon Settings to choose the theme. Restart Cinnamon by pressing "Alt+F2". Type "r" and then press Enter.
+Use Cinnamon Settings to choose the theme.
+
+
 You can install from the zipball.
  
 Extract zip file and the themes directory. That's usually /usr/share/themes/ for system wide installation or ~/.themes/ for a specific user.
  
 Use Cinnamon Settings to choose the theme.
-Restart Cinnamon by pressing "Alt+F2".
-Type "r" and then press Enter.
+
 
 ----
 ----
