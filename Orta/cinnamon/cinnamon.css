@@ -1836,7 +1836,7 @@ StTooltip StLabel {
  * ===================================================================*/
 #workspaceSwitcher {
     spacing: 0px;
-    padding: 3px;
+    padding: 2px;
     
 }
 
@@ -1846,13 +1846,14 @@ StTooltip StLabel {
     color: #333;
     transition-duration: 100;
     border: 1px;
-    border-color: #a6a6a6;
+    border-color: #dbdbdc;
     padding: 2px;
+    background: #A9B7C4;
 }
 
 .workspace-button:outlined {
-    padding: 2px;
-    background: #cccccc;
+    padding: 1px;
+    background: #6f8090;
     color: #333;
 }
 
