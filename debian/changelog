@@ -1,3 +1,12 @@
+orta-cinnamon-light-theme (0.6.3) oneiric; urgency=low
+
+  * themed workspace switcher
+  * applied dalcde's patches for panel button padding and alt-tab
+  * matched alt-tab theme to Gnome Shell Orta's alt-tab
+  * changed panel background and foreground colors to match gtk2 Orta
+
+ -- Mordant23 <mordant23@gmail.com>  Fri, 10 Feb 2012 09:55:48 -0800
+
 orta-cinnamon-light-theme (0.6.2) oneiric; urgency=low
 
   * corrected installation instructions in README file
