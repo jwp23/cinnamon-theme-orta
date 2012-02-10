@@ -323,8 +323,8 @@ StTooltip StLabel {
 #panel {
     color: #333333;
     background-gradient-direction: vertical; 
-    background-gradient-start: #fcfcfc;
-    background-gradient-end: #dbdbdc; 
+    background-gradient-start: #e8e8e9;
+    background-gradient-end: #c6c6c6; 
     box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78);
     border: 1px solid rgba(33,33,33,0.5);
     border-top: 0px;
@@ -1743,11 +1743,11 @@ StTooltip StLabel {
 }
 
 .window-list-item-box {
-     color: #333;
+     color: #333; 
 	 background-gradient-direction: vertical;
-	 background-gradient-start: rgba(255,255,255,0.05);
-	 background-gradient-end: rgba(255,255,255,0.2);
-	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,0.5);
+	 background-gradient-start: #e7e7e7;
+	 background-gradient-end: #c8c8c8; 
+	 box-shadow: 2px 0px 1px 1px #bbbbbc; 
      border-radius: 2px 2px 0px 0px;
 }
 
@@ -1755,16 +1755,18 @@ StTooltip StLabel {
 .window-list-item-box:checked,
 .window-list-item-box:focus  {     
 	 background-gradient-direction: vertical;
-	 background-gradient-start: rgba(226,226,226,0.5);
-	 background-gradient-end: rgba(122,122,122,0.5);
-	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,0.5);
-     border-radius: 2px 2px 0px 0px;
+	 background-gradient-start: rgba(170,170,170,1);
+	 background-gradient-end: rgba(190,190,190,1); /*
+	 background: rgba(190,190,190, .8); */
+	 box-shadow: inset 0px 1px 1px 1px rgba(138,138,138,.9); 
+     border-radius: 4px;
 }
 
-.window-list-item-box:hover  {     
-	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0);
-     border-radius: 2px 2px 0px 0px;
-     font-weight: bold;
+.window-list-item-box:hover  {    /*
+	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0); 
+     border-radius: 2px 2px 0px 0px; 
+     font-weight: bold; */
+     background: rgba(169,183,196,0.4);
 }
 
 .window-list-item-demands-attention {
@@ -1848,7 +1850,7 @@ StTooltip StLabel {
     border: 1px;
     border-color: #dbdbdc;
     padding: 2px;
-    background: #A9B7C4;
+    background: #a6a6ab;
 }
 
 .workspace-button:outlined {
