@@ -1,0 +1,11 @@
+Package: orta-cinnamon-light-theme
+Version: 0.6.1
+Architecture: amd64
+Maintainer: Mordant23 <mordant23@gmail.com>
+Installed-Size: 288
+Depends: cinnamon (>= 1.2.0)
+Section: gnome
+Priority: extra
+Homepage: https://github.com/mordant23/cinnamon-theme-orta
+Description: Orta Cinnamon Light is a port of Orta for cinnamon
+ Orta Cinnamon Light is a port of the Gnome Shell port of Orta written by half-left. Orta is originally written by SkiesOfAzel http://skiesofazel.deviantart.com/art/Orta-184118297
