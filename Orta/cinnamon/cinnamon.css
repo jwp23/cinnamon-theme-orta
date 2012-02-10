@@ -1028,7 +1028,7 @@ StTooltip StLabel {
     padding: 20px;
 
     font-size: 9pt;
-    color: black;
+    color: #4D4D4D;
 }
 
 .switcher-list-item-container {
