@@ -1,0 +1,17 @@
+Source: orta-cinnamon-light-theme
+Section: gnome
+Priority: extra
+Maintainer: Mordant23 <mordant23@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/mordant23/cinnamon-theme-orta
+Vcs-Git: git://github.com/mordant23/cinnamon-theme-orta.git
+Vcs-Browser: https://mordant23@github.com/mordant23/cinnamon-theme-orta.git;a=summary
+
+Package: orta-cinnamon-light-theme
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cinnamon (>= 1.2.0)
+Description: Orta Cinnamon Light is a port of Orta for cinnamon
+ Orta Cinnamon Light is a port of the Gnome Shell port of Orta written by half-left.
+
+Orta is originally written by SkiesOfAzel http://skiesofazel.deviantart.com/art/Orta-184118297
