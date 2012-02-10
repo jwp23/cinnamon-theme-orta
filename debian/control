@@ -12,6 +12,4 @@ Package: orta-cinnamon-light-theme
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, cinnamon (>= 1.2.0)
 Description: Orta Cinnamon Light is a port of Orta for cinnamon
- Orta Cinnamon Light is a port of the Gnome Shell port of Orta written by half-left.
-
-Orta is originally written by SkiesOfAzel http://skiesofazel.deviantart.com/art/Orta-184118297
+ Orta Cinnamon Light is a port of the Gnome Shell port of Orta written by half-left. Orta is originally written by SkiesOfAzel http://skiesofazel.deviantart.com/art/Orta-184118297
