@@ -158,7 +158,7 @@ StTooltip StLabel {
 }
 
 .popup-menu {
-    color: #333;
+    color: #4D4D4D;
     font-size: 10pt;
     min-width: 200px;
 }
@@ -199,7 +199,7 @@ StTooltip StLabel {
     background-gradient-start: #eeeeef;
     background-gradient-end: #cececf; 
     padding: 1em 0em;
-    color: #333;
+    color: #4D4D4D;
     font-size: 10.5pt;
     border: rgba(22, 22, 22, 0.5);
     border-radius: 9px;
@@ -321,11 +321,15 @@ StTooltip StLabel {
  * ===================================================================*/
 
 #panel {
-    color: #333333;
+    color: #4D4D4D; /*
     background-gradient-direction: vertical; 
     background-gradient-start: #e8e8e9;
-    background-gradient-end: #c6c6c6; 
-    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78);
+    background-gradient-end: #c6c6c6; */
+    background-gradient-direction: vertical; 
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; /*
+
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78); */
     border: 1px solid rgba(33,33,33,0.5);
     border-top: 0px;
     border-left: 0px;
@@ -363,7 +367,7 @@ StTooltip StLabel {
 	-natural-hpadding: 5px;
     -minimum-hpadding: 5px;
     font-weight: bold;
-    color: #333;    
+    color: #4D4D4D;    
     height: 22px;    
 }
 
@@ -497,7 +501,7 @@ StTooltip StLabel {
     background-gradient-start: rgba(233,233,233,0.5);
     background-gradient-end: rgba(160,160,160,0.5);
     box-shadow: inset 0px 0px 6px 4px rgba(0,0,0,0.3);
-    border: 3px solid #333;
+    border: 3px solid #4D4D4D;
 }
 
 .window-caption {
@@ -799,7 +803,7 @@ StTooltip StLabel {
 
 /* Hack used in lieu of border-collapse - see calendar.js */
 .calendar-day {
-    border: 1px solid #333333;
+    border: 1px solid #4D4D4D;
     color: #cccccc;
     border-top-width: 0;
     border-left-width: 0;
@@ -832,7 +836,7 @@ StTooltip StLabel {
 }
 
 .calendar-other-month-day {
-    color: #333333;
+    color: #4D4D4D;
 }
 
 .calendar-day-with-events {
@@ -1000,7 +1004,7 @@ StTooltip StLabel {
 
 #notification StEntry:focus {
     border: 1px solid #8b8b8b;
-    color: #333333;
+    color: #4D4D4D;
     background-gradient-direction: vertical;
     background-gradient-start: rgb(200,200,200);
     background-gradient-end: white;
@@ -1686,7 +1690,7 @@ StTooltip StLabel {
 #menu-search-entry {
     padding: 4px 12px;
     border-radius: 4px;
-    color: #333;
+    color: #4D4D4D;
     border: 1px solid rgba(255,255,255,0.3);
     background-color: #fff;
     selected-color: black;
@@ -1743,7 +1747,7 @@ StTooltip StLabel {
 }
 
 .window-list-item-box {
-     color: #333; 
+     color: #4D4D4D; 
 	 background-gradient-direction: vertical;
 	 background-gradient-start: #e7e7e7;
 	 background-gradient-end: #c8c8c8; 
@@ -1845,7 +1849,7 @@ StTooltip StLabel {
 .workspace-button {
     width: 20px;
     height: 10px;   
-    color: #333;
+    color: #4D4D4D;
     transition-duration: 100;
     border: 1px;
     border-color: #dbdbdc;
@@ -1856,7 +1860,7 @@ StTooltip StLabel {
 .workspace-button:outlined {
     padding: 1px;
     background: #6f8090;
-    color: #333;
+    color: #4D4D4D;
 }
 
 .workspace-button:hover {
