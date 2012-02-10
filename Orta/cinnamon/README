@@ -7,10 +7,11 @@ Orta is originally written by SkiesOfAzel http://skiesofazel.deviantart.com/art/
 
 INSTALLATION
 
-You can install from the repository https://launchpad.net/~mordant23/+archive/themes.
+You can install from the repository
+https://launchpad.net/~mordant23/+archive/themes.
  
-sudo apt-get-respositry ppa:mordant23/themes
-sudo apt-get update && sudo apt-get install cinnamon-theme-clove-black 
+sudo apt-apt-respositry ppa:mordant23/themes
+sudo apt-get update && sudo apt-get install orta-cinnamon-light-theme 
  
 Use Cinnamon Settings to choose the theme.
 
@@ -40,7 +41,6 @@ GNOME SHELL Orta
 Author: half-left
 url: http://half-left.deviantart.com/art/GNOME-Shell-Orta-207047273
 License: GPL3
-
 
 Orta Cinnamon Light
 ---
