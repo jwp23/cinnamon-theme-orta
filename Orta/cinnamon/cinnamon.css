@@ -158,7 +158,7 @@ StTooltip StLabel {
 }
 
 .popup-menu {
-    color: #333;
+    color: #4D4D4D;
     font-size: 10pt;
     min-width: 200px;
 }
@@ -199,7 +199,7 @@ StTooltip StLabel {
     background-gradient-start: #eeeeef;
     background-gradient-end: #cececf; 
     padding: 1em 0em;
-    color: #333;
+    color: #4D4D4D;
     font-size: 10.5pt;
     border: rgba(22, 22, 22, 0.5);
     border-radius: 9px;
@@ -321,11 +321,15 @@ StTooltip StLabel {
  * ===================================================================*/
 
 #panel {
-    color: #333333;
+    color: #4D4D4D; /*
     background-gradient-direction: vertical; 
-    background-gradient-start: #fcfcfc;
-    background-gradient-end: #dbdbdc; 
-    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78);
+    background-gradient-start: #e8e8e9;
+    background-gradient-end: #c6c6c6; */
+    background-gradient-direction: vertical; 
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; /*
+
+    box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.78); */
     border: 1px solid rgba(33,33,33,0.5);
     border-top: 0px;
     border-left: 0px;
@@ -363,7 +367,7 @@ StTooltip StLabel {
 	-natural-hpadding: 5px;
     -minimum-hpadding: 5px;
     font-weight: bold;
-    color: #333;    
+    color: #4D4D4D;    
     height: 22px;    
 }
 
@@ -410,7 +414,7 @@ StTooltip StLabel {
 .panel-button {
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
-    padding: 0px 12px;
+    padding: 0px 1px;
     font-weight: bold;
     color: #555;
     transition-duration: 100;
@@ -431,8 +435,8 @@ StTooltip StLabel {
     border: 1px solid rgba(255,255,255,0.0);
     box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
     color: #fff;
-    padding-right: 11px;
-    padding-left: 11px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .panel-button:active > .system-status-icon,
@@ -497,7 +501,7 @@ StTooltip StLabel {
     background-gradient-start: rgba(233,233,233,0.5);
     background-gradient-end: rgba(160,160,160,0.5);
     box-shadow: inset 0px 0px 6px 4px rgba(0,0,0,0.3);
-    border: 3px solid #333;
+    border: 3px solid #4D4D4D;
 }
 
 .window-caption {
@@ -799,7 +803,7 @@ StTooltip StLabel {
 
 /* Hack used in lieu of border-collapse - see calendar.js */
 .calendar-day {
-    border: 1px solid #333333;
+    border: 1px solid #4D4D4D;
     color: #cccccc;
     border-top-width: 0;
     border-left-width: 0;
@@ -832,7 +836,7 @@ StTooltip StLabel {
 }
 
 .calendar-other-month-day {
-    color: #333333;
+    color: #4D4D4D;
 }
 
 .calendar-day-with-events {
@@ -1000,7 +1004,7 @@ StTooltip StLabel {
 
 #notification StEntry:focus {
     border: 1px solid #8b8b8b;
-    color: #333333;
+    color: #4D4D4D;
     background-gradient-direction: vertical;
     background-gradient-start: rgb(200,200,200);
     background-gradient-end: white;
@@ -1019,13 +1023,16 @@ StTooltip StLabel {
 }
 
 .switcher-list {
-    background: rgba(80,80,80,0.8);
-    border: 1px solid rgba(128,128,128,0.40);
+    background-gradient-direction: vertical; 
+    background-gradient-start: #eeeeef;
+    background-gradient-end: #cececf; 
+    border: 1px solid rgba(22, 22, 22, 0.3);
+    box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.4);
     border-radius: 24px;
     padding: 20px;
 
     font-size: 9pt;
-    color: white;
+    color: #4D4D4D;
 }
 
 .switcher-list-item-container {
@@ -1063,7 +1070,12 @@ StTooltip StLabel {
 }
 
 .switcher-list .item-box:selected {
-    background: rgba(255,255,255,0.33);
+    background-gradient-direction: vertical; 
+    background-gradient-start: #5d5d5d;
+    background-gradient-end: #757575;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.3);
+    color: #fff;
 }
 
 .switcher-list .thumbnail-box {
@@ -1686,7 +1698,7 @@ StTooltip StLabel {
 #menu-search-entry {
     padding: 4px 12px;
     border-radius: 4px;
-    color: #333;
+    color: #4D4D4D;
     border: 1px solid rgba(255,255,255,0.3);
     background-color: #fff;
     selected-color: black;
@@ -1743,28 +1755,50 @@ StTooltip StLabel {
 }
 
 .window-list-item-box {
-     color: #333;
+     color: #4D4D4D; /*
+	 background-gradient-direction: vertical;
+	 background-gradient-start: #e7e7e7;
+	 background-gradient-end: #c8c8c8; 
+	 box-shadow: 2px 0px 1px 1px #bbbbbc; */
+
 	 background-gradient-direction: vertical;
 	 background-gradient-start: rgba(255,255,255,0.05);
 	 background-gradient-end: rgba(255,255,255,0.2);
 	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,0.5);
+
      border-radius: 2px 2px 0px 0px;
+
 }
 
 .window-list-item-box:active,
 .window-list-item-box:checked,
-.window-list-item-box:focus  {     
+.window-list-item-box:focus  {     /*
+	 background-gradient-direction: vertical;
+	 background-gradient-start: rgba(170,170,170,1);
+	 background-gradient-end: rgba(190,190,190,1); 
+	 background: rgba(190,190,190,1); 
+	 box-shadow: inset 0px 1px 1px 0px rgba(138,138,138,1); 
+     border-radius: 4px; */
+
+/* 0.6.2 version */
 	 background-gradient-direction: vertical;
 	 background-gradient-start: rgba(226,226,226,0.5);
 	 background-gradient-end: rgba(122,122,122,0.5);
 	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,0.5);
      border-radius: 2px 2px 0px 0px;
+
 }
 
-.window-list-item-box:hover  {     
+.window-list-item-box:hover  {    /*
+	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0); 
+     border-radius: 2px 2px 0px 0px; 
+     font-weight: bold; 
+     background: rgba(169,183,196,0.4); */
+
 	 box-shadow: inset 0px 0px 1px 1px rgba(170,170,170,1.0);
      border-radius: 2px 2px 0px 0px;
      font-weight: bold;
+
 }
 
 .window-list-item-demands-attention {
@@ -1836,24 +1870,25 @@ StTooltip StLabel {
  * ===================================================================*/
 #workspaceSwitcher {
     spacing: 0px;
-    padding: 3px;
+    padding: 2px;
     
 }
 
 .workspace-button {
     width: 20px;
     height: 10px;   
-    color: #333;
+    color: #4D4D4D;
     transition-duration: 100;
     border: 1px;
-    border-color: #a6a6a6;
+    border-color: #dbdbdc;
     padding: 2px;
+    background: #a6a6ab;
 }
 
 .workspace-button:outlined {
-    padding: 2px;
-    background: #cccccc;
-    color: #333;
+    padding: 1px;
+    background: #6f8090;
+    color: #4D4D4D;
 }
 
 .workspace-button:hover {
@@ -1954,5 +1989,3 @@ StTooltip StLabel {
 .applet-label {
 
 }
-
-
